@@ -9,7 +9,7 @@ import { Pensamento } from '../pensamento';
 export class PensamentoComponent implements OnInit {
 
   @Input() pensamento: Pensamento = {
-    id: 0,
+    id: "0",
     conteudo: 'I Love Angular',
     autoria: 'Molinox',
     modelo: 'modelo3'
